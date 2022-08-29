@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #2e2e2e;
+}
+
+.app {
+  padding: 5.5rem;
+  margin: 10px 5.5rem;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 13px 16px rgb(23, 23, 23);
+  -webkit-box-shadow: 0px 1px 13px 16px rgb(23, 23, 23);
+  -moz-box-shadow: 0px 1px 13px 16px rgb(23, 23, 23);
+}
+.app .home {
+  display: flex;
+  padding-bottom: 3rem;
+}
+.app .home .home1 h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+}
+.app .home .home1 h5 {
+  font-size: 1.8rem;
+  font-weight: 750;
+  padding-bottom: 5px;
+}
+.app .home .home1 p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 2rem;
+  padding-right: 2.7rem;
+  color: rgb(23, 22, 22);
+}
+.app .home .home2 {
+  padding-left: 2rem;
+  padding-top: 3rem;
+  width: 35rem;
+}
+.app .home .home2 ul {
+  list-style: none;
+}
+.app .home .home2 ul li {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: right;
+  text-align: right;
+  justify-content: right;
+}
+.app .home .home2 ul li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.app .home .home2 ul li a i {
+  padding-left: 5px;
+  color: rgb(23, 22, 22);
+}
+.app .home .home2 ul li .a {
+  color: #0abde3;
+}
+.app .home .home2 ul li .b {
+  color: #01a3a4;
+}
+.app .container {
+  display: flex;
+  justify-content: space-between;
+}
+.app .container .project {
+  padding-right: 1rem;
+}
+.app .container .project h1 {
+  font-size: 2.3rem;
+  color: #01a3a4;
+}
+.app .container .project .project-body {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+.app .container .project .project-body h2 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(23, 22, 22);
+}
+.app .container .project .project-body .part1 {
+  display: flex;
+}
+.app .container .project .project-body .part1 p {
+  padding-right: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.app .container .project .project-body .part1 a {
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #01a3a4;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.app .container .project .project-body .part2 {
+  padding: 1rem 2rem;
+}
+.app .container .project .project-body .part2 ul li {
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.app .container .project .project-body .part3 span {
+  font-family: "Oswald", sans-serif;
+  color: rgb(23, 22, 22);
+}
+.app .container .project .project-body .part3 p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+.app .container .mixer {
+  width: 51rem;
+  padding-left: 1rem;
+}
+.app .container .mixer h1 {
+  font-size: 2.3rem;
+  color: #01a3a4;
+}
+.app .container .mixer .skills {
+  padding: 1rem;
+}
+.app .container .mixer .skills h2 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(23, 22, 22);
+}
+.app .container .mixer .skills p {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+.app .container .mixer .hr {
+  padding: 2px;
+  color: #2e2e2e;
+  background-color: #2e2e2e;
+}
+.app .container .mixer .project-body {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+.app .container .mixer .project-body .extra {
+  padding-top: 2rem;
+}
+.app .container .mixer .project-body h2 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(23, 22, 22);
+}
+.app .container .mixer .project-body .part1 {
+  display: flex;
+}
+.app .container .mixer .project-body .part1 p {
+  padding-right: 5px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.app .container .mixer .project-body .part1 a {
+  padding: 10px 5px;
+  text-decoration: none;
+  color: #01a3a4;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.app .container .mixer .project-body .part2 {
+  padding: 1rem 2rem;
+}
+.app .container .mixer .project-body .part2 ul li {
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.app .container .mixer .project-body .part3 span {
+  font-family: "Oswald", sans-serif;
+  color: rgb(23, 22, 22);
+}
+.app .container .mixer .project-body .part3 p {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+.app .container .mixer .c-text {
+  margin-top: 2.5rem;
+}
+.app .container .mixer .certificate {
+  padding: 1rem;
+}
+.app .container .mixer .certificate a {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #01a3a4;
+  text-decoration: none;
+}
+.app .container .mixer .certificate p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.app .container .mixer .certificate hr {
+  background-color: #01a3a4;
+  padding: 0.5px;
+  width: 20rem;
+}
+.app .container .mixer .r-text {
+  margin-top: 1rem;
+}
+.app .container .mixer .reference {
+  padding: 1rem;
+}
+.app .container .mixer .reference h2 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(23, 22, 22);
+  padding-bottom: 1rem;
+}
+.app .container .mixer .reference p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+.app .container .mixer .reference p a {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #01a3a4;
+}/*# sourceMappingURL=style.css.map */

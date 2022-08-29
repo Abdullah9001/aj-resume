@@ -1,0 +1,248 @@
+$primary-color: #01a3a4;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #2e2e2e;
+}
+.app {
+  padding: 5.5rem;
+  margin: 10px 5.5rem;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 13px 16px rgba(23, 23, 23, 1);
+  -webkit-box-shadow: 0px 1px 13px 16px rgba(23, 23, 23, 1);
+  -moz-box-shadow: 0px 1px 13px 16px rgba(23, 23, 23, 1);
+  .home {
+    display: flex;
+    padding-bottom: 3rem;
+    .home1 {
+      h1 {
+        font-size: 4.5rem;
+        font-weight: 500;
+        font-family: "Playfair Display", serif;
+      }
+      h5 {
+        font-size: 1.8rem;
+        font-weight: 750;
+        padding-bottom: 5px;
+      }
+      p {
+        font-size: 1.3rem;
+        font-weight: bold;
+        line-height: 2rem;
+        padding-right: 2.7rem;
+        color: rgb(23, 22, 22);
+      }
+    }
+    .home2 {
+      padding-left: 2rem;
+      padding-top: 3rem;
+      width: 35rem;
+
+      ul {
+        list-style: none;
+
+        li {
+          padding-bottom: 20px;
+          display: flex;
+          align-items: right;
+          text-align: right;
+          justify-content: right;
+
+          a {
+            text-decoration: none;
+            font-size: 1.4rem;
+            font-weight: bold;
+            i {
+              padding-left: 5px;
+              color: rgb(23, 22, 22);
+            }
+          }
+          .a {
+            color: #0abde3;
+          }
+          .b {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .project {
+      padding-right: 1rem;
+      h1 {
+        font-size: 2.3rem;
+        color: $primary-color;
+      }
+      .project-body {
+        padding: 1rem;
+        padding-bottom: 2rem;
+        h2 {
+          font-family: "Oswald", sans-serif;
+          color: rgb(23, 22, 22);
+        }
+        .part1 {
+          display: flex;
+          p {
+            padding-right: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+          }
+          a {
+            padding: 10px 5px;
+            text-decoration: none;
+            color: $primary-color;
+            font-weight: bold;
+            font-size: 1.1rem;
+          }
+        }
+        .part2 {
+          padding: 1rem 2rem;
+          ul {
+            li {
+              line-height: 2rem;
+              font-weight: 600;
+              font-size: 1.1rem;
+            }
+          }
+        }
+        .part3 {
+          span {
+            font-family: "Oswald", sans-serif;
+            color: rgb(23, 22, 22);
+          }
+          p {
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 2rem;
+          }
+        }
+      }
+    }
+    .mixer {
+      width: 51rem;
+      padding-left: 1rem;
+      h1 {
+        font-size: 2.3rem;
+        color: $primary-color;
+      }
+      .skills {
+        padding: 1rem;
+        h2 {
+          font-family: "Oswald", sans-serif;
+          color: rgb(23, 22, 22);
+        }
+        p {
+          padding: 1rem;
+          font-weight: 600;
+          font-size: 1.1rem;
+          line-height: 2rem;
+        }
+      }
+      .hr {
+        padding: 2px;
+        color: #2e2e2e;
+        background-color: #2e2e2e;
+      }
+
+      .project-body {
+        padding: 1rem;
+        padding-bottom: 2rem;
+        .extra {
+          padding-top: 2rem;
+        }
+        h2 {
+          font-family: "Oswald", sans-serif;
+          color: rgb(23, 22, 22);
+        }
+        .part1 {
+          display: flex;
+          p {
+            padding-right: 5px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+          }
+          a {
+            padding: 10px 5px;
+            text-decoration: none;
+            color: $primary-color;
+            font-weight: bold;
+            font-size: 1.1rem;
+          }
+        }
+        .part2 {
+          padding: 1rem 2rem;
+          ul {
+            li {
+              line-height: 2rem;
+              font-weight: 600;
+              font-size: 1.1rem;
+            }
+          }
+        }
+        .part3 {
+          span {
+            font-family: "Oswald", sans-serif;
+            color: rgb(23, 22, 22);
+          }
+          p {
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 2rem;
+          }
+        }
+      }
+      .c-text {
+        margin-top: 2.5rem;
+      }
+      .certificate {
+        padding: 1rem;
+        a {
+          font-weight: 600;
+          font-size: 1.2rem;
+          color: $primary-color;
+          text-decoration: none;
+        }
+        p {
+          font-weight: 600;
+          font-size: 1.2rem;
+        }
+        hr {
+          background-color: $primary-color;
+          padding: 0.5px;
+          width: 20rem;
+        }
+      }
+      .r-text {
+        margin-top: 1rem;
+      }
+      .reference {
+        padding: 1rem;
+        h2 {
+          font-family: "Oswald", sans-serif;
+          color: rgb(23, 22, 22);
+          padding-bottom: 1rem;
+        }
+        p {
+          font-weight: 600;
+          font-size: 1.2rem;
+          padding-bottom: 1rem;
+          a {
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
